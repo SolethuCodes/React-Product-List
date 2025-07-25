@@ -9,7 +9,13 @@ function App() {
   const [category, setCategory] = useState("All");
   const [inStockOnly, setInStockOnly] = useState(false);
 
-  const categories = [...new Set(products.map((p) => p.category))];
+  const categories = [];
+  for (let i = 0; i < products.length; i++) {
+    const category = products[i].category;
+    if (!categories.includes(category)) {
+      categories.push(category);
+    }
+  }
 
   const filteredProducts = products.filter(
     (product) =>

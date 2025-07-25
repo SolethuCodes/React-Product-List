@@ -1,12 +1,26 @@
-# React + Vite
+# ShopEasy Product Catalogue
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description  
+A React-based product catalogue for ShopEasy Inc., featuring live search, category filtering, and an “in stock” toggle. Designed as a reusable e-commerce template with clean UI components. Ideal for small retailers or developers looking to jumpstart an e-commerce front end.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features  
+- 🔍 Search products by name (case-insensitive)  
+- 📂 Filter products by category  
+- ✅ Toggle to show only in-stock products  
+- 🖼️ Responsive product cards with name, category, price, and stock status   
+- ⚛️ Modular React components with hooks
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites  
+- Node.js (version 14 or above)  
+- npm package manager  
+
+### Installation  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/SolethuCodes/React-Product-List.git
